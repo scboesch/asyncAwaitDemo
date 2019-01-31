@@ -7,7 +7,7 @@ var app = new Vue({
     slowReplace: async function(word) {
       return new Promise(resolve => {
         setTimeout(() => {
-          let result = word.replace("o", "😒");
+          let result = word.replace("o", "😄");
           resolve(result);
         }, 1000);
       });
